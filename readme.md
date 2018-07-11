@@ -9,3 +9,9 @@ Site web avec template pour cuisiniste , et interface d'administration ( mini-CM
 ```
 git clone git@github.com:NicolasFerreira/web-cuisine.git 
 ```
+
+```
+npm install 
+
+composer install 
+```
