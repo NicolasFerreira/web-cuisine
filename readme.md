@@ -6,12 +6,43 @@ Site web avec template pour cuisiniste , et interface d'administration ( mini-CM
 
 ## Installation du projet 
 
+- clonage du projet :
 ```
 git clone git@github.com:NicolasFerreira/web-cuisine.git 
 ```
 
+- installation des dépendances :
 ```
 npm install 
 
 composer install 
+```
+
+- initialisation de la base de donées : 
+
+Créer une base de données Mysql , puis copier le .env.example et renommer le fichier copier en .env , pour finir modifier les paramètres en fonction de votre configuration : 
+
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=homestead
+DB_USERNAME=homestead
+DB_PASSWORD=secret
+```
+
+- initialisation clé projet ( laraval ) :
+
+```
+php artisan key:generate
+```
+
+- création des tables de la database ( migrations et seeders ): 
+
+```
+php artisan migrate
+
+composer dump-autoload
+
+php artisan db:seed
 ```
