@@ -1,0 +1,63 @@
+//MDB 
+
+// @import "mdb";
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+
+// Website 
+@import "navbar";
+
+
+@import "accueil";
+@import "rdv";
+@import "catalogue";
+@import "admin";
+@import "contact";
+
+body{
+	overflow-x:hidden;
+
+}
+main{
+	padding:0;
+	min-height:83vh;
+}
+
+
+.bg-2{
+	padding:30px 0;
+	background-color:#eee;
+}
+
+.di-none{
+	display:none!important;
+}
+
+.bd-l {
+	border-left:5px solid $primary-color;
+	padding-left: 5px;
+}
+
+section.my-5{
+	margin-top:5rem!important;
+	margin-bottom:5rem!important;
+}
+
+footer{
+	background-color:$secondary-color;
+	.row{
+		justify-content:center;
+
+		li{
+			margin:10px;
+		}
+	}
+}
+
+.m-bot {
+	margin-bottom: 30px;
+}

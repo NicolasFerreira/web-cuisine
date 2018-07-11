@@ -1,0 +1,39 @@
+.catalogue {
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+
+	.item-catalogue {
+		width: 32vw;
+		height:400px;
+		overflow:hidden;
+
+		.img-catalogue {
+			height:300px;
+			// background:#1e1e1e;
+			background-size: cover;
+
+		} 
+
+		.body-catalogue{
+			display: flex;
+			flex-direction:row;
+			justify-content:space-between;
+			align-items:center;
+			padding:20px 0;
+
+			.titre-catalogue {
+				font-weight:600;
+				text-transform:uppercase;
+			}
+		}
+	}
+}
+
+.message-actualisation {
+	font-size: 2rem;
+	text-align: center;
+	width: 80vw;
+	font-weight: 300;
+	margin-top:60px;
+}
