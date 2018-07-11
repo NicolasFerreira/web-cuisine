@@ -67,7 +67,7 @@ npm run watch
 
 ###### accès au compte admin : 
 
-Suivre ce lien : localhost:8000/admin 
+Suivre ce lien : http://localhost:8000/admin 
 
 Se connecter avec les identifiants suivant : 
 - Mail : 'admin@gmail.com'
