@@ -46,3 +46,29 @@ composer dump-autoload
 
 php artisan db:seed
 ```
+
+###### liaison storage et public ( gestion des images ) :
+
+```
+php artisan storage:link
+```
+
+###### demarrage du serveur : 
+
+```
+php artisan serve
+```
+
+###### compilation des assets ( sass / js si mode dev ) : 
+
+```
+npm run watch
+```
+
+###### accès au compte admin : 
+
+Suivre ce lien : localhost:8000/admin 
+
+Se connecter avec les identifiants suivant : 
+- Mail : 'admin@gmail.com'
+- Mdp : 'admin' 
