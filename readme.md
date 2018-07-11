@@ -72,3 +72,9 @@ Suivre ce lien : http://localhost:8000/admin
 Se connecter avec les identifiants suivant : 
 - Mail : 'admin@gmail.com'
 - Mdp : 'admin' 
+
+## À vous de jouer 
+
+Si toutes les étapes précedentes ont fonctionné vous pouvez dès à present naviguer dans une interface d'administration , changer la photo principale de la page d'accueil ou bien ajouter des réalisations , partenaires ... Gérer votre catalogue de cuisines, salles de bains ou rangements.
+
+Attention pour l'envoie de mail vous devrez effectuer une configuration dans votre .env afin d'ajouter le système de mailing de votre choix ( voir doc sur laravel pour plus d'informations ).
