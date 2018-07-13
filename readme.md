@@ -31,7 +31,7 @@ DB_USERNAME=homestead
 DB_PASSWORD=secret
 ```
 
-### initialisation clé projet ( laraval ) :
+### initialisation clé projet ( laravel ) :
 
 ```
 php artisan key:generate
