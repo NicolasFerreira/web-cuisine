@@ -12,7 +12,7 @@ class PagesTableSeeder extends Seeder
     public function run()
     {	
     	$pages = DB::table('pages');
-        $pages->insert(['champ' => 'titre1','content' => 'RM']);
+        $pages->insert(['champ' => 'titre1','content' => 'Test']);
         $pages->insert(['champ' => 'titre2','content' => 'Cuisines']);
         $pages->insert(['champ' => 'soustitre','content' => 'Cuisines et salles de bains sur mesure']);
 
@@ -46,7 +46,7 @@ class PagesTableSeeder extends Seeder
         $pages->insert(['champ' => 'h03','content' => 'Fermé']);
         $pages->insert(['champ' => 'sous_cat_2','content' => 'Contact']);
         $pages->insert(['champ' => 'tel','content' => 'Tel : 05 65 20 23 20']);
-        $pages->insert(['champ' => 'mail','content' => 'Mail : rmcuisines@gmail.com']);
+        $pages->insert(['champ' => 'mail','content' => 'Mail : cuisines@gmail.com']);
 
         $pages->insert(['champ' => 'section_4_titre','content' => 'Nos partenaires']);
     }
