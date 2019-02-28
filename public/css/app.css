@@ -23,6 +23,7 @@ nav.navbar a.navbar-brand {
 
 nav.navbar a.navbar-brand span {
   color: #262626;
+  display: none;
 }
 
 nav.navbar div.menu a {
@@ -206,6 +207,7 @@ div.titre-box div.titre h1 {
 
 div.titre-box div.titre h1 span {
   color: #262626;
+  display: none;
 }
 
 div.titre-box div.titre h2 {
@@ -454,6 +456,13 @@ input.form-control:focus:not([readonly]) + label {
   color: #ED3534;
 }
 
+.img-partenaires {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .rdv__form {
   width: 40vw;
   margin: auto;
@@ -545,6 +554,7 @@ input.form-control:focus:not([readonly]) + label {
 
 .login-container div.titre h1 span {
   color: #262626;
+  display: none;
 }
 
 .admin-nav {
@@ -579,6 +589,7 @@ input.form-control:focus:not([readonly]) + label {
 
 .admin-nav h1 span {
   color: #262626;
+  display: none;
 }
 
 .admin-nav ul {

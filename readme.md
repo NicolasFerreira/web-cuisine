@@ -9,6 +9,8 @@ Site web avec template pour cuisiniste , et interface d'administration ( mini-CM
 ### clonage du projet :
 ```
 git clone git@github.com:NicolasFerreira/web-cuisine.git 
+
+cd web-cuisine
 ```
 
 ### installation des dépendances :

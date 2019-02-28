@@ -26,6 +26,7 @@ div.titre-box{
 			color:$primary-color;
 			span{
 				color:$secondary-color;
+				display: none;
 			}
 		}
 		h2{
@@ -242,4 +243,11 @@ input.form-control:focus:not([readonly]) {
 	+ label{
 		color: $primary-color;
 	}
+}
+
+
+.img-partenaires {
+ width: 100px;
+ height: 100px;
+ object-fit: contain;
 }
